@@ -1,38 +1,22 @@
 {
   "name": "viewport-units-buggyfill",
-  "version": "0.6.0",
-  "title": "Viewport Units Buggyfill for Mobile Safari",
-  "description": "Making viewport units (vh|vw|vmin|vmax) work properly in older WebKit and Trident",
-  "homepage": "http://github.com/rodneyrehm/viewport-units-buggyfill/",
-  "author": {
-    "name": "Rodney Rehm",
-    "url": "http://rodneyrehm.de"
+  "version": "1.0.0",
+  "description": "This is a *buggyfill* (fixing bad behavior), not a *polyfill* (adding missing behavior). That said, it provides hacks for you to get viewport units working in old IE and Android Stock Browser as well. If the browser doesn't know how to deal with the [viewport units](http://www.w3.org/TR/css3-values/#viewport-relative-lengths) - `vw`, `vh`, `vmin` and `vmax` - this library will not improve the situation unless you're using the hacks detailed below. The buggyfill uses the [CSSOM](http://dev.w3.org/csswg/cssom/) to access the defined styles rather than ship its own CSS parser, that'S why the hacks abuse the CSS property `content` to get the values across.",
+  "main": "viewport-units-buggyfill.js",
+  "directories": {
+    "example": "examples"
   },
-  "contributors": [{
-    "name": "Zoltan Hawryluk",
-    "url": "http://www.useragentman.com"
-  }],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rodneyrehm/viewport-units-buggyfill.git"
+    "url": "git+https://github.com/trenthm/viewport-units-buggyfill.git"
   },
-  "license": "MIT",
-  "keywords": [
-    "ios",
-    "safari",
-    "viewport"
-  ],
-  "main": "./viewport-units-buggyfill.js",
-  "files": [
-    "viewport-units-buggyfill.js",
-    "viewport-units-buggyfill.hacks.js"
-  ],
-  "scripts": {
-    "lint": "grunt lint"
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trenthm/viewport-units-buggyfill/issues"
   },
-  "devDependencies": {
-    "jshint-stylish": "~0.1.5",
-    "grunt": "~0.4.5",
-    "grunt-contrib-jshint": "~0.8.0"
-  }
+  "homepage": "https://github.com/trenthm/viewport-units-buggyfill#readme"
 }
