@@ -9,7 +9,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-<<<<<<< HEAD
   "repository": {
     "type": "git",
     "url": "git+https://github.com/trenthm/viewport-units-buggyfill.git"
@@ -18,25 +17,6 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/trenthm/viewport-units-buggyfill/issues"
-=======
-  "contributors": [{
-    "name": "Zoltan Hawryluk",
-    "url": "http://www.useragentman.com"
-  }],
-  "license": "MIT",
-  "keywords": [
-    "ios",
-    "safari",
-    "viewport"
-  ],
-  "main": "./viewport-units-buggyfill.js",
-  "files": [
-    "viewport-units-buggyfill.js",
-    "viewport-units-buggyfill.hacks.js"
-  ],
-  "scripts": {
-    "lint": "grunt lint"
->>>>>>> origin/master
   },
   "homepage": "https://github.com/trenthm/viewport-units-buggyfill#readme"
 }
